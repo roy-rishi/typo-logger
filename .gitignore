@@ -1,0 +1,8 @@
+log.csv
+venv
+test.py
+
+.DS_Store
+__pycache__/
+.cache
+*.swp
