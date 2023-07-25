@@ -83,7 +83,8 @@ words = [x.strip().lower() for x in words]
 def correct_word(word):
     distances = []
     for i in words:
-        d = distance(word, i, weights=(1,1,1), score_cutoff=3)
+        # d = distance(word, i, weights=(1,1,1), score_cutoff=3)
+        d = distance(word, i, weights=(1,1,1), score_cutoff=6)
         distances.append(d)
         if d == 0:
             return i
