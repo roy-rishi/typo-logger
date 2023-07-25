@@ -2,6 +2,7 @@ log.csv
 *.csv
 venv
 test.py
+languages/experimental
 
 .DS_Store
 __pycache__/

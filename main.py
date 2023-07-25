@@ -3,7 +3,7 @@ from Levenshtein import distance
 import threading
 import time
 
-WORDS_DB="google-10000-english"
+WORDS_DB="languages/google-10000-english"
 
 
 def on_press(key):
